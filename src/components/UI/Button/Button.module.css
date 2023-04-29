@@ -3,9 +3,7 @@
     width: auto;
     padding: 10px 20px;
 
-    background-color:rgb(234, 235, 240);
-    border: 2px solid rgb(171, 169, 191);
-    border-radius: 20px;
-
     margin-top: 50px;
+
+    cursor: pointer;
 }

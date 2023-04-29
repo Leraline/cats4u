@@ -1,0 +1,5 @@
+.commonBorder {
+    background-color:rgb(234, 235, 240);
+    border: 4px solid rgb(171, 169, 191);
+    border-radius: 20px;
+}

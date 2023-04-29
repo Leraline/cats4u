@@ -1,10 +1,15 @@
 import React from 'react';
-import classes from './Button.module.css';
+import buttonStyle from './Button.module.css';
+import commonStyles from 'C:/Users/leraline/Desktop/projects/react/please-stand-up/src/styles/common.module.css';
 
-const Button = ({children}) => {
+const Button = ({children, ...props}) => {
+
+    const classes = `${commonStyles.commonBorder} ${buttonStyle.defaultButton}`;
+
+
     return (
         <div>
-            <button className={classes.defaultButton}>
+            <button {...props} className={classes}>
                 {children}
             </button>
         </div>
