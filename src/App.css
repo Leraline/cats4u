@@ -10,4 +10,21 @@
   align-items: center;
 }
 
+body {
+  /* solid background */
+  background: rgb(0,212,255);
+  
+  /* gradient background*/
+  background: linear-gradient(45deg, rgba(0,212,255,1) 0%, rgba(11,3,45,1) 100%);    
+  
+  /* photo background */
+  background-image: url(https://mobimg.b-cdn.net/v3/fetch/36/3649580ba7c2aa764cf5bfbf0fe2b7cb.jpeg);
+  background-size: cover;
+  background-position: center;  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+  height: 100vh;  
+}
 
