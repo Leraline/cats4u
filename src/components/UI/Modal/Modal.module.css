@@ -42,3 +42,15 @@
     flex-direction: column;
     justify-content: space-around;
 }
+
+input {
+    border: none;
+    color: transparent;
+    text-shadow: 0 0 0 black;
+}
+
+input:focus {
+    outline: none;
+    background-color: transparent;
+    cursor: none;
+}

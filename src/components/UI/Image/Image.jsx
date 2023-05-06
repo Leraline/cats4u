@@ -1,12 +1,12 @@
 import React from 'react';
-import cl from './Image.Module.css';
+import classNames from './Image.Module.css';
 
-const Image = ({src, alt}) => {
+const Image = (props) => {
     return (
-        <div className={cl.imgContainer}>
-            <img src={src} alt={alt}/>
-        </div>
+      <div className={classNames.imgContainer}>
+        <img {...props} />
+      </div>
     );
-};
-
-export default Image;
+  };
+  
+  export default Image;

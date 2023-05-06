@@ -2,6 +2,8 @@ img {
     width: 600px;
     height: 600px;
     object-fit: contain;
+    border-radius: 12px;
+    pointer-events: none;
 }
 
 .imgContainer {

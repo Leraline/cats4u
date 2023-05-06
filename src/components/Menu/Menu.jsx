@@ -1,9 +1,9 @@
 import React from 'react';
-import cl from './Menu.module.css'
+import classNames from './Menu.module.css'
 
 const Menu = ({children}) => {
     return (
-        <div className={cl.rootStyle}>
+        <div className={classNames.rootStyle}>
             <ul>
                 {children}
             </ul>

@@ -1,18 +1,18 @@
 import React from 'react';
-import cl from "./Card.module.css";
+import classNames from "./Card.module.css";
 import Button from '../UI/Button/Button';
 
 const Card = () => {
 
     return (
-    <div className={cl.container}>
-        <div className={cl.wrapper}>
-            <div className={cl.bannerImage}></div>
+    <div className={classNames.container}>
+        <div className={classNames.wrapper}>
+            <div className={classNames.bannerImage}></div>
                 <h1>Toyota Supra</h1>
                 <p>Lorem ipsum dolor sit amet, <br/>
                     consectetur adipiscing elit.</p>
             </div>
-            <div className={cl.buttonWrapper}> 
+            <div className={classNames.buttonWrapper}> 
                 <Button>m</Button>
                 <Button>m</Button>
             </div>
